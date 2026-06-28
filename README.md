@@ -1,9 +1,9 @@
 # SQL-row_number-rank-dense_rank-function
 Solving SQL questions based on row_number( ), rank( ), dense_rank( ) function
 
-row_number() - assigns a unique sequential number to each row
-rank() - assigns the same rank to duplicate values and skip the next rank
-dense_rank() - assigns the same rank to duplicate values and does not skip the next rank
+1) row_number() - assigns a unique sequential number to each row
+2) rank() - assigns the same rank to duplicate values and skip the next rank
+3) dense_rank() - assigns the same rank to duplicate values and does not skip the next rank
 
 #creating new database
 

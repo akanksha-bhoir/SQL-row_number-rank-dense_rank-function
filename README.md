@@ -70,7 +70,7 @@ where new<=2;
 
 #Question 5: Display employees ordered by salary (highest first).
 # If two employees have the same salary, their order should still be unique and consistent using emp_id.
-#(Read the condition that order should be unique even if employee have same salary)
+#(Read the condition that order should be unique even if two employee have same salary)
 
 select *, row_number() over(order by salary desc) as rank_by_salary from employee;
 

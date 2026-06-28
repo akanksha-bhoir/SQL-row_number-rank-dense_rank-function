@@ -39,7 +39,7 @@ insert into employee values
 select * from employee;
 
 #Question 1: Display all employees with a sequential number based on salary in descending order. 
-# (Here sequential number asked so we may use row_number() but since it is based on salary, I am using dense_rank() )
+# (Here sequential number asked so obviously the first choice will be row_number() but since it is based on salary, I am using dense_rank() )
 
 select *, dense_rank() over(order by salary desc) as Sequential_number from employee;
 
